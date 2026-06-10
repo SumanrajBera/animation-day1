@@ -19,7 +19,7 @@ gsap.method("element", {properties});
 - to: This is used for taking the animation from start to end state (Starts from by default position).
 - from: This is used for going from ending state to default/starting state.
 - fromTo: This takes to property brackets one for from and one for to. (We define the duration and delay in the second bracket because two happens here and we want animation in the second one)
-- set
+- set: This method is used for applying initial properties without animation.
   
 ## Selecting elements in gsap
 ```
